@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  margin: 20px;
+  padding: 5px;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: rgb(255, 102, 0);
+}
+
+.heading-parent {
+  display: flex;
+  flex-direction: row;
+}
+
+#heading-title {
+  font-size: 2em;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-titles {
+  color: rgb(14, 12, 124);
+  font-size: 1em;
+  margin: auto;
+  padding-right: 1rem;
+}
+
+.parent {
+  background-color: blanchedalmond;
+}
+
+.child-title {
+  display: flex;
+  color: rgb(15, 52, 175);
+  font-size: 1em;
+  padding-left: 0.6rem;
+}
+
+.sub-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+/* TODO ADD MEDIA QUERIES */
+
+@media screen {
+    
+}
